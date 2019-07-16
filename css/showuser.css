@@ -1,0 +1,11 @@
+tr th{
+    color:gray;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+td{
+    color:#468044 ;
+    font-weight: bold;
+}

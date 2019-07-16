@@ -1,0 +1,14 @@
+body{
+    background-color:#f8f9fa;
+}
+.card:hover{
+    box-shadow: 3px 3px 2px 2px lightgrey;
+
+}
+a {
+    text-decoration: none !important;
+
+}
+col a{
+    color:white !important;
+}

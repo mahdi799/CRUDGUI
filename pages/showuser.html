@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit user </title>
+    <link rel="stylesheet" type="text/css" href="../css/showuser.css">
+    <link rel="stylesheet"  href="../css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+</head>
+<body style="background-color: #f8f9fa">
+<nav class="navbar navbar-dark bg-dark sticky-top ">
+    <a class="navbar-brand" href="#">Test API Build</a>
+</nav>
+<section class="container ">
+    <div class="row  justify-content-between mt-5 border-bottom">
+        <div class="col">
+            <h1>User details</h1>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-dark float-right ml-1"><i class="fa fa-list"></i><a href="all_user.html"> back to list</a></button>
+            <button type="button" class="btn btn-primary float-right"><i class="fa fa-edit"></i><a href="edit.html"> Edit user</a></button>
+        </div>
+    </div>
+    <div class="row ">
+        <div  class="col-4 mt-5">
+            <img src="../img/1.jpg" alt="Responsive image" class="img-thumbnail " >
+        </div>
+        <div class="col pt-2" >
+            <table class="table mt-2 ">
+                <tbody>
+                <tr>
+                    <th>
+                        <label for="userid" class="user-lable">ID</label>
+                    </th>
+                    <TD>
+                        <label for="userid" content="user-labe">1</label>
+                    </TD>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="Given Name" class="user-lable">Given Name</label>
+                    </th>
+                    <TD>
+                        <label for="Given Name" content="user-labe">ali</label>
+                    </TD>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="Family" class="user-lable">Family name</label>
+                    </th>
+                    <TD>
+                        <label for="Family" content="user-labe">rahimzade</label>
+                    </TD>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="email" class="user-lable">email</label>
+                    </th>
+                    <TD>
+                        <label for="email" content="user-labe">rahi@123</label>
+                    </TD>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="imagepath" class="user-lable">Image path</label>
+                    </th>
+                    <TD>
+                        <label for="imagepath" content="user-labe">images/980b376ce27fb095031e0349ef440987.jpg
+                        </label>
+                    </TD>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="date" class="user-lable">Create date</label>
+                    </th>
+                    <TD>
+                        <label for="date" content="user-labe">2020
+                      </label>
+                   </TD>
+                </tr>
+
+                </tbody>
+
+            </table>
+            <div class="row justify-content-end pt-2">
+                <div class="button">
+                    <button type="button" class="btn btn-danger "><i class="fa fa-trash-alt"></i> Delete user</button>
+
+                </div>
+    </div>
+
+</section>
